@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results</title>
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <a href="home.html">
+        <img style="height: 33px" style="width: 33px" src="../img/download.png">
+    </a>
+    <h2>KOMMUNENAVN</h2>
+    <nav>
+        <a href="create-candidate.html">Opret en kandidat</a>
+        <a href="create-party.html">Opret et parti</a>
+        <a href="show-candidates.html">Hvis nuværende partier</a>
+        <a href="election-results.html">Valgresultater</a>
+    </nav>
+</header>
+<div class="inputStyling">
+<h1>Så mange stemmer fik hvert parti:</h1>
+<p>Tryk på knappen for at tælle stemmerne igen</p>
+<button id="re-count">Omtæl</button>
+</div>
+<div id="parties"></div>
+
+<div id="results"></div>
+
+<script src="../js/fetchParty.js"></script>
+<script src="../js/electionResults.js"></script>
+</body>
+</html>

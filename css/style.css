@@ -1,0 +1,44 @@
+html{
+   height: 100%;
+}
+body{
+    background: linear-gradient(to left top, grey, #6495ed);
+    margin: 0;
+}
+
+#parties{
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+
+#results div{
+    display: flex;
+
+    height: 50px;
+    background: aliceblue;
+    margin: 10px;
+    border: solid black;
+}
+
+.inputStyling{
+    display: grid;
+    place-items: center;
+    border: solid black;
+}
+.inputStyling button{
+    margin: 10px;
+}
+header{
+    display: flex;
+    align-items: center;
+    border-bottom: solid gray;
+}
+header a{
+    margin-left: 20px;
+    border: solid gray;
+    text-decoration: inherit;
+    color: black;
+    font-size: 15px;
+    font-family: "Arial Black";
+}
